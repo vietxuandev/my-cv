@@ -1,0 +1,12 @@
+.contact-wrapper {
+  margin-top: 52px;
+  .contact-map {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+.footer-wrapper {
+  margin-top: 30px;
+  .site-footer {
+    display: block;
+    position: relative;
+    padding: 15px 45px;
+    background-color: #fdfdfd;
+    border-top: 2px solid #f2f2f2;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    .footer-social {
+      float: left;
+    }
+    .footer-copyrights {
+      float: right;
+      p {
+        margin: 0;
+      }
+    }
+    .footer-social-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        margin-right: 25px;
+        a {
+          color: #333;
+          text-decoration: none;
+          line-height: 21px;
+          font-size: 13px;
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+  .social-contact .social-icons ul li a {
+    border: 0 none;
+    border-radius: 0;
+    color: #a5a5a5;
+    padding: 0px;
+  }
+
+  .social-contact .social-icons ul li {
+    display: inline-block;
+  }
+
+  .social-contact .social-icons ul li a i {
+    padding: 11px 15px;
+    transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+  }
+
+  .social-contact .social-icons ul li a i:hover {
+    color: #fff;
+    transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+  }
+
+  .social-contact .fa-facebook:hover {
+    background: #0083c9;
+  }
+
+  .social-contact .fa-twitter:hover {
+    background: #5bbcec;
+  }
+
+  .social-contact .fa-linkedin:hover {
+    background: #ff4518;
+  }
+
+  .social-contact .fa-dribbble:hover {
+    background: #90c9dc;
+  }
+
+  .social-contact .fa-google-plus:hover {
+    background: #ce3c2d;
+  }
+
+  .social-contact {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+  }
+}
