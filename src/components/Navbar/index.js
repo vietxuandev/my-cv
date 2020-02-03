@@ -30,7 +30,7 @@ const Navbar = () => {
                 exact
                 to='/'
                 onClick={() => {
-                  setToggle(!toggle);
+                  setToggle(false);
                 }}
               >
                 About Me
@@ -41,7 +41,7 @@ const Navbar = () => {
                 exact
                 to='/resume'
                 onClick={() => {
-                  setToggle(!toggle);
+                  setToggle(false);
                 }}
               >
                 Resume
@@ -52,7 +52,7 @@ const Navbar = () => {
                 exact
                 to='/contact'
                 onClick={() => {
-                  setToggle(!toggle);
+                  setToggle(false);
                 }}
               >
                 Contact
