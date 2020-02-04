@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './style.scss';
 import bangdiem from '../../files/bangdiem.pdf';
+import mycv from '../../files/my-cv.pdf';
 import { Modal, ModalBody } from 'reactstrap';
 const About = () => {
   const [viewPDF, setViewPDF] = useState(false);
@@ -44,7 +45,7 @@ const About = () => {
               </div>
               <div className='home-buttons'>
                 <a
-                  href={bangdiem}
+                  href={mycv}
                   className='btn btn-primary download-button'
                   download
                 >
