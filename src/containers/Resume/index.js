@@ -7,7 +7,7 @@ const Resume = () => {
       <div className='page-title'>
         <h1>Resume</h1>
         <div className='page-subtitle'>
-          <h4>Get in Touch</h4>
+          <h4>Fresher</h4>
         </div>
       </div>
       <div className='container'>

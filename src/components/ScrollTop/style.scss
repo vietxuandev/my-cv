@@ -1,0 +1,39 @@
+.scrolltop-wrapper {
+  .lmpixels-scroll-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    z-index: 100;
+    display: inline-block;
+    padding: 0;
+    background-color: #fafafa;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    border: 1px solid #e5e5e5;
+    color: #333;
+    opacity: 1;
+    border-radius: 8px;
+    visibility: visible;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.12);
+    i {
+      position: absolute;
+      left: 50%;
+      top: 45%;
+      transform: translate(-50%, -50%);
+    }
+    &:hover {
+      color: #54ca95;
+    }
+  }
+}

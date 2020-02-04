@@ -1,6 +1,8 @@
 .about-wrapper {
-  padding: 52px 40px 60px;
-  margin-top: 40px;
+  margin-top: 80px;
+  .home-content {
+    margin: 5% 10%;
+  }
   .home-photo {
     display: block;
     position: relative;
@@ -29,6 +31,7 @@
   }
   .home-text {
     margin-top: 40px;
+    text-align: left;
     .profile {
       display: flex;
       .space {
@@ -61,7 +64,11 @@
       border-color: #54ca95;
     }
   }
-
+  @media (max-width: 1100px) {
+    .home-content {
+      margin: 5% 0;
+    }
+  }
   @media (max-width: 767px) {
     .major,
     .full-name,
