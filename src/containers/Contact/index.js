@@ -110,7 +110,7 @@ const Contact = () => {
                 <h4>Website</h4>
                 <p>
                   <a
-                    href='http://vietxuandev.com'
+                    href='vietxuandev.com'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
