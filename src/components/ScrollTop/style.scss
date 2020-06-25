@@ -4,20 +4,13 @@
     bottom: 10px;
     right: 15px;
     z-index: 100;
-    display: inline-block;
-    padding: 0;
     background-color: #fafafa;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 24px;
+    padding: 25px;
+    font-size: 25px;
     cursor: pointer;
     border: 1px solid #e5e5e5;
     color: #333;
-    opacity: 1;
     border-radius: 8px;
-    visibility: visible;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -34,6 +27,12 @@
     }
     &:hover {
       color: #54ca95;
+    }
+  }
+  @media (max-width: 991px) {
+    .lmpixels-scroll-to-top {
+      padding: 20px;
+      font-size: 20px;
     }
   }
 }

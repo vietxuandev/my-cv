@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import './style.scss';
 
 const index = (props) => {
-    const { period = '', company = '', position = '', description = <></> } = props;
+    const { period = '', company = '', position = '', description = <Fragment /> } = props;
     return (
         <Fragment>
             <div className='timeline-item clearfix'>
