@@ -13,9 +13,11 @@ import NotFound from './containers/NotFound';
 import './App.scss';
 
 function App() {
-  const [scrollY, setScrollY] = useState(0);
-  function logit() {
-    setScrollY(window.pageYOffset);
+  const [showScroll, setShowScroll] = useState(false);
+  console.log(showScroll)
+  const logit = () => {
+    console.log(window.pageYOffset)
+    window.pageYOffset >= 150 ? setShowScroll(true) : setShowScroll(false);
   }
   useEffect(() => {
     const watchScroll = () => {
@@ -29,7 +31,7 @@ function App() {
   return (
     <Router>
       <div className='App'>
-        {scrollY >= 50 && <ScrollTop />}
+        {showScroll && <ScrollTop />}
         <Navbar />
         <Switch>
           <Route exact path='/' component={About} />
