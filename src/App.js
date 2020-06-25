@@ -14,7 +14,6 @@ import './App.scss';
 
 function App() {
   const [showScroll, setShowScroll] = useState(false);
-  console.log(showScroll)
   const logit = () => {
     console.log(window.pageYOffset)
     window.pageYOffset >= 150 ? setShowScroll(true) : setShowScroll(false);
