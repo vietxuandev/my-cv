@@ -1,0 +1,15 @@
+Revert "update"
+
+This reverts commit c16c9976b5549190cef094e96c1d042faa30cfd5.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Xuan Nguyen Viet <nvxuan@tma.com.vn>
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   src/files/cv.pdf
+#
